@@ -12,7 +12,30 @@ body {
 
 #container {
     width: 800px;
-    background-image: url(sign-up-background.jpg);
+    background-image: url(sign-up-background.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: relative;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.header img {
+    width: 70px;
+    height: auto;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: lighter;
+    margin: 0;
 }

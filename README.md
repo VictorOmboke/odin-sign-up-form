@@ -2,4 +2,4 @@ This project is a simple sign-up form. This project is intended to demonstrate a
 
 This project comes from the Odin Project's Intermediate HTML and CSS Course which is apart of their Full Stack JavaScript curriculum. 
 
-Background image used in this project is by Kunj Parekh on Unsplash.com.
+Background image used in this project is by Josh Withers on Unsplash.com.
