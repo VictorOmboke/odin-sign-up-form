@@ -11,6 +11,9 @@ body {
 }
 
 #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 800px;
     background-image: url(sign-up-background.avif);
     background-repeat: no-repeat;
@@ -19,13 +22,14 @@ body {
 }
 
 .header {
+    width: 100%;
     position: relative;
     top: 100px;
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 5px 0;
 }
 
 .header img {
@@ -38,4 +42,14 @@ body {
     font-size: 80px;
     font-weight: lighter;
     margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 10px;
 }
