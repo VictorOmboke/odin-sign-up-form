@@ -53,3 +53,7 @@ body {
     color: #ffffff;
     font-size: 10px;
 }
+
+a {
+    color: inherit;
+}
