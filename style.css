@@ -70,3 +70,8 @@ a {
     font-size: 20px;
     margin-right: 25px;
 }
+
+form h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
