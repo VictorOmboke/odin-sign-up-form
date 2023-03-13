@@ -57,3 +57,10 @@ body {
 a {
     color: inherit;
 }
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ececec;
+}
