@@ -62,16 +62,48 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #ececec;
-    padding-left: 20px;
+    background-color: #f6f6f6;
 }
 
 .header-info {
     font-size: 20px;
-    margin-right: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-form h1 {
+form {
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+    padding: 25px 25px 25px 25px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 30px -20px;
+}
+
+fieldset {
+    color: #4b4b4b;
+    border: 0 none;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+    padding: 0;
+}
+
+fieldset div {
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
     font-size: 20px;
-    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+input {
+    border: 1px solid #d2d2d2;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 400px;
 }
