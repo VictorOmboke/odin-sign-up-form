@@ -155,7 +155,7 @@ body {
 .header {
     width: 100%;
     position: relative;
-    top: 100px;
+    top: 220px;
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     justify-content: center;
@@ -211,7 +211,7 @@ form {
     font-family: 'Rubik', sans-serif;
     font-size: 12px;
     background-color: #ffffff;
-    padding: 25px 25px 25px 25px;
+    padding: 25px;
     margin-bottom: 20px;
     box-shadow: 0px 5px 30px -20px;
 }
@@ -225,6 +225,7 @@ fieldset {
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
     padding: 0;
+    margin-bottom: 10px;
 }
 
 fieldset div {
@@ -234,7 +235,7 @@ fieldset div {
 
 legend {
     font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 input {
@@ -266,7 +267,7 @@ input[type="password"]:valid {
 
 button {
     position: absolute;
-    bottom: 240px;
+    bottom: 230px;
     padding: 15px 30px;
     background-color: #0f6e45;
     color: #ffffff;
