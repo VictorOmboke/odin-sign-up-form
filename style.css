@@ -87,7 +87,7 @@ fieldset {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 25px;
+    gap: 20px;
     padding: 0;
 }
 
@@ -106,4 +106,18 @@ input {
     border-radius: 5px;
     padding: 5px;
     max-width: 400px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00a25c !important;
+    box-shadow: 0px 0px 4px #626262 !important;
+}
+
+input[type="password"]:invalid {
+    border-color: #ff0000;
+}
+
+input[type="password"]:valid {
+    border-color: #008000;
 }
