@@ -122,10 +122,13 @@ input[type="password"]:valid {
     border-color: #008000;
 }
 
-button {
+.footer-sign-up {
     margin-left: 25px;
+}
+
+button {
     padding: 15px 30px;
-    background-color: #006a3c;
+    background-color: #0f6e45;
     color: #ffffff;
     border: none;
     border-radius: 10px;
@@ -134,4 +137,10 @@ button {
 
 button:active {
     transform: scale(0.98);
+}
+
+.footer-sign-up a {
+    text-decoration: none;
+    color: #0f6e45;
+    font-weight: bold;
 }
